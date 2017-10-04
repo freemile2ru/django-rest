@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+</head>
+
+<body>
+ <h1> This is me writing {{ language }} </h1>
+ <p> and I am loving it</p>
+ {% if num %}
+ <p>I am a random {{ num }}</p>
+ {% endif %}
+
+ <ul>
+    {% for some_item in some_list %}
+    <li> {{ some_item }} </li>
+     {% endfor %}
+ </ul>
+ 
+
+</body>
+</html>
